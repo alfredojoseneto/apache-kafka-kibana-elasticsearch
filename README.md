@@ -4,6 +4,16 @@ This project demonstrates a complete data pipeline using Apache Kafka for messag
 
 ## 📁 Project Structure
 
+apache-kafka-kibana-elasticsearch\
+├── consumer_to_elastic.py
+├── consumidor_processamento.py
+├── consumidor.py
+├── dados_cambio.json
+├── docker-compose.yml
+├── produtor_api.py
+├── produtor.py
+└── README.md
+
 - 📊 `produtor.py` - Simulates transaction data with different currencies
 - 🔄 `produtor_api.py` - Fetches real-time exchange rates from an external API
 - 👀 `consumidor.py` - Basic consumer that prints messages to console
